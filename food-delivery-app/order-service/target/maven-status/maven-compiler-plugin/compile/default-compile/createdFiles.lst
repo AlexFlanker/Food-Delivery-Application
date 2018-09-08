@@ -1,0 +1,12 @@
+demo/domain/Item.class
+demo/domain/Address.class
+demo/service/OrderService.class
+demo/domain/Order.class
+demo/domain/OrderRepository.class
+demo/service/OrderStatusUpdateMessage.class
+demo/domain/OrderStatus.class
+demo/OrderServiceApplication.class
+demo/service/Impl/OrderServiceImpl.class
+demo/domain/Address$AddressType.class
+demo/domain/DeliveryInfo.class
+demo/controller/OrderController.class

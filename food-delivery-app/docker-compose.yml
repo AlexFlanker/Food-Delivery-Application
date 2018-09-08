@@ -1,0 +1,12 @@
+rabbitmq:
+  image: rabbitmq:3.6.1-management
+  ports:
+    - "5673:5673"
+    - "15673:15673"
+
+mongodb:
+  image: mongo:3.4.4
+  ports:
+    - "27018:27018"
+  environment:
+      MONGODB_DATABASE: "foodDeliveryApp"
